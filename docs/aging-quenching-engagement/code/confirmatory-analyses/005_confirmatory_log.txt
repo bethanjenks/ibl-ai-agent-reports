@@ -1,0 +1,638 @@
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+exploratory-analyses/quench_common.py:93: RuntimeWarning: invalid value encountered in divide
+  return (residuals ** 2).sum(0) / (len(conditions) - len(labels)) / counts.mean(0)
+                  sessions  mice  neurons
+variant cohort                           
+paper   bwm            219    89    11053
+        lifespan        20    11     1104
+safe    bwm            217    88    11079
+        lifespan        21    12     1276
+  family test   metric variant          scope alternative  beta_per_100d       z       p  mice  neurons  p_holm  significant
+0      Q   C1   quench   paper  churchlandlab     greater         0.0286  2.4394  0.0038    18     2211  0.0114         True
+1      Q   C2   quench   paper       all labs     greater         0.0312  2.9609  0.0042   100    12040  0.0114         True
+2      Q   C3   quench    safe       all labs     greater         0.0210  2.4186  0.0079   100    12146  0.0114         True
+3      F   F1   fr_pre   paper       all labs     greater         0.0259  1.2132  0.1149   100    12156  0.3447        False
+4      F   F2  fr_post   paper       all labs     greater         0.0260  1.1669  0.1214   100    12156  0.3447        False
+5      F   F3  ff_post   paper       all labs     greater         0.0277  2.7511  0.0050   100    12100  0.0200         True
+6      F   F4   ff_pre   paper       all labs   two-sided         0.0080  0.8092  0.4218   100    12092  0.4218        False
+     metric variant          scope  beta_eng  beta_eng_lo  beta_eng_hi  beta_all  beta_all_lo  beta_all_hi  ratio  ratio_lo  ratio_hi  delta  delta_lo  delta_hi
+0    fr_pre   paper       all labs     0.026       -0.028        0.075     0.026       -0.028        0.075  1.005     0.163     2.069 -0.000    -0.006     0.006
+1    fr_pre   paper  churchlandlab     0.008       -0.069        0.070     0.007       -0.067        0.066  1.189     0.224     2.027 -0.001    -0.007     0.007
+2    fr_pre    safe       all labs     0.005       -0.057        0.068     0.004       -0.058        0.066  1.223    -0.252     1.946 -0.001    -0.007     0.007
+3    fr_pre    safe  churchlandlab     0.006       -0.069        0.071     0.003       -0.073        0.066  2.276    -1.061     3.552 -0.004    -0.014     0.006
+4   fr_post   paper       all labs     0.026       -0.023        0.069     0.025       -0.024        0.069  1.042    -0.141     2.055 -0.001    -0.006     0.005
+5   fr_post   paper  churchlandlab     0.019       -0.054        0.073     0.015       -0.056        0.069  1.270    -0.112     2.825 -0.004    -0.009     0.003
+6   fr_post    safe       all labs    -0.015       -0.075        0.045    -0.016       -0.075        0.044  0.962    -0.446     2.054 -0.001    -0.007     0.008
+7   fr_post    safe  churchlandlab    -0.000       -0.088        0.060    -0.003       -0.086        0.054  0.022    -0.694     2.870 -0.003    -0.012     0.007
+8    ff_pre   paper       all labs     0.008       -0.009        0.031     0.008       -0.008        0.030  0.999    -0.198     2.237  0.000    -0.003     0.003
+9    ff_pre   paper  churchlandlab    -0.007       -0.029        0.029    -0.008       -0.027        0.029  0.928    -1.079     3.444 -0.001    -0.005     0.005
+10   ff_pre    safe       all labs     0.003       -0.011        0.021     0.003       -0.009        0.019  0.994    -3.116     5.323  0.000    -0.005     0.005
+11   ff_pre    safe  churchlandlab    -0.010       -0.030        0.018    -0.013       -0.031        0.015  0.730    -2.774     3.703 -0.004    -0.011     0.003
+12  ff_post   paper       all labs     0.028        0.009        0.055     0.026        0.007        0.052  1.074     0.936     1.269 -0.002    -0.005     0.001
+13  ff_post   paper  churchlandlab     0.010       -0.011        0.045     0.006       -0.014        0.040  1.562    -2.232     5.245 -0.004    -0.009    -0.000
+14  ff_post    safe       all labs     0.017        0.004        0.038     0.016        0.003        0.036  1.060     0.538     1.850 -0.001    -0.006     0.005
+15  ff_post    safe  churchlandlab    -0.006       -0.025        0.020    -0.010       -0.024        0.016  0.635    -2.743     3.923 -0.004    -0.009     0.004
+16   quench   paper       all labs     0.031        0.017        0.047     0.029        0.013        0.045  1.093     0.932     1.417 -0.003    -0.009     0.002
+17   quench   paper  churchlandlab     0.029        0.010        0.048     0.024        0.002        0.044  1.175     0.792     2.779 -0.004    -0.018     0.004
+18   quench    safe       all labs     0.022        0.010        0.039     0.021        0.012        0.035  1.026     0.706     1.310 -0.001    -0.007     0.005
+19   quench    safe  churchlandlab     0.008       -0.003        0.023     0.008       -0.004        0.028  0.993    -1.833     4.738  0.000    -0.007     0.010
+
+Also when engaged (any Q significant after Holm): True
+C2 Δ = β_all − β_eng = -0.0027 [-0.0085, 0.0023], β_all = 0.0285; not explained by disengagement (Δ upper < 0.5 β_all): True
