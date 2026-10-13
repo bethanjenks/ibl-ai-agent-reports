@@ -50,3 +50,7 @@
 ## Report
 - [X] 9. `report.qmd` → `report/report.html`
       → `report.qmd`, `report/report.html` (figures embedded), `instruction-suggestions.md`
+- [X] 10. Report review (user request 2026-10-13): numbers checked against outputs; Discussion no longer leans on Part A;
+      added engaged/disengaged trial fractions per cohort, quench scale, mouse-exclusion counts, definitions (GLM-HMM,
+      sign convention, z, Holm, ROI fixed effects, presence ratio, attenuation Δ); fixed post hoc mouse counts, |z| ≤ 1.9
+      → `report.qmd`, `report/report.html`

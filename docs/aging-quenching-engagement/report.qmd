@@ -35,8 +35,13 @@ things in older mice:
 They found no age effect on pre-stimulus FF.
 
 **Engagement.** Mice in this task switch between an engaged, stimulus-driven strategy and disengaged, biased
-strategies (Ashwood et al. 2022). A companion analysis of the same dataset fitted a two-state GLM-HMM per mouse.
-It found that older mice spend less time in the engaged state, and that their engaged state is weaker.
+strategies (Ashwood et al. 2022). A GLM-HMM (generalised linear model–hidden Markov model) captures this: each
+hidden state has its own logistic model of choice from the stimulus and history, and the model infers which state
+the mouse was in on each trial. Its output for every trial is P(engaged), the posterior probability that the mouse
+was in the engaged state. A [companion analysis](https://bethanjenks.github.io/ibl-ai-agent-reports/aging-glmhmm-engagement/)
+of the same dataset fitted a two-state GLM-HMM per mouse. It found that older mice spend less time in the engaged
+state, and that their engaged state is weaker (smaller stimulus weight). This report builds on that analysis and
+uses its P(engaged) values.
 
 Disengaged trials might well show less quenching, since the stimulus matters less to the animal on those trials. If
 so, the age effect on quenching could simply reflect older mice being disengaged more often. This report tests that.
@@ -47,8 +52,9 @@ mice and 497 sessions:
 - **bwm cohort:** 139 mice, 92–461 days old (Brain Wide Map sessions, 12 labs);
 - **lifespan cohort:** 19 mice, 317–597 days old (mostly one lab).
 
-The data hold only units that pass the three IBL single-unit quality metrics. Per-trial P(engaged) comes from the
-companion GLM-HMM, which was fitted separately on exploration and confirmation mice.
+The data hold only units that pass the three IBL single-unit quality metrics (refractory-period violations, noise
+cut-off and median amplitude). Per-trial P(engaged) comes from the companion GLM-HMM, which was fitted separately on
+exploration and confirmation mice.
 
 Age is confounded with cohort, lab, recording year, probe type and the regions sampled. One lab recorded both
 cohorts, which gives a within-lab contrast (bwm 140–270 d vs lifespan 317–597 d).
@@ -60,9 +66,11 @@ cohorts, which gives a within-lab contrast (bwm 140–270 d vs lifespan 317–59
 Mice were split 30/70 into exploration (48) and confirmation (110) sets. The split was stratified by lab and is the
 same as the companion analysis. Neurons were selected as in Zang et al.:
 
-- regions: 16 regions of interest (ROIs) built from Beryl areas;
+- regions: 16 regions of interest (ROIs), each a group of Beryl areas (the standard IBL parcellation of the Allen
+  atlas into about 300 regions);
 - task-window firing rate > 1 Hz;
-- presence ratio > 0.95.
+- presence ratio > 0.95 (the neuron fired in more than 95% of the session's time bins, so it was not lost during
+  the recording).
 
 Trials needed complete events and a response time of 0.08–2 s. All trials were kept. The paper's first-400 cut was
 a sensitivity check and changed nothing (@fig-pilot, top right).
@@ -75,11 +83,17 @@ a sensitivity check and changed nothing (@fig-pilot, top right).
 
 **FF** is the mean-subtracted Fano factor of Zang et al., following Churchland et al. 2011:
 
-- each trial's spike count in a 100 ms window minus the mean count for its signed-contrast condition (9 conditions);
+- each trial's spike count in a 100 ms window minus the mean count for its signed-contrast condition (9 conditions:
+  stimulus contrast, signed by side);
 - the variance of these pooled residuals, divided by the mean count.
 
+Subtracting the condition mean matters because different stimuli drive different mean responses. Without it, the
+spread between conditions would count as trial-to-trial variability.
+
 **Windows:** pre-stimulus [−0.10, 0] s and post-stimulus [0.16, 0.26] s around stimulus onset. Quench = post FF −
-pre FF; negative values mean quenching.
+pre FF. **Negative values mean quenching** (variability drops after the stimulus); a value closer to zero means
+weaker quenching. On engaged trials the typical mouse quenched by −0.09 (median of mouse medians, confirmation set),
+about a 7% drop from a pre-stimulus FF of 1.33.
 
 **Change from the paper:** the residual variance divides by (n − number of conditions). Each condition mean uses up
 one degree of freedom, and this matters for the small trial subsets used below. At about 400 trials it is
@@ -93,16 +107,25 @@ negligible.
 trials span more session time and slow drift adds variance. So every comparison between trial sets uses the same
 number of trials, drawn at random 20 times and averaged.
 
-**Engaged vs disengaged comparisons are confounded by time in session.** This part is "Part A" below. Only 20 bwm
-and 7 lifespan exploration sessions had at least 20 disengaged trials. Engaged trials from early and late in a
-session differ from each other about as much as engaged and disengaged trials do, even though the state is the same
-(placebo, @fig-pilot bottom). Part A was therefore kept descriptive. It showed no consistent state effect: on
-disengaged trials quenching was slightly weaker in bwm (+0.035) but slightly *stronger* in lifespan sessions
-(−0.045).
+The analysis has two parts:
+
+- **Part A** compares the same neuron on engaged trials (P(engaged) > 0.8) and disengaged trials (P(engaged) < 0.2).
+- **Part B** compares the age effect on engaged trials with the age effect on all trials. It is the basis of the
+  locked tests.
+
+**Part A is confounded by time in session.** Only 20 bwm and 7 lifespan exploration sessions had at least 20
+disengaged trials. As a placebo we compared engaged trials from early and late in a session: the state is the same,
+so any difference reflects drift over the session. That placebo difference was about as large as the
+engaged-vs-disengaged difference (@fig-pilot bottom). Part A was therefore kept descriptive. It showed no consistent
+state effect: on disengaged trials quenching was slightly weaker in bwm (+0.035) but slightly *stronger* in lifespan
+sessions (−0.045). Matching the engaged trials to the disengaged trials' position in the session gave larger
+differences in the same directions (+0.10 and −0.07).
 
 ![Pilot diagnostics, exploration mice. Top, left to right: where disengaged trials fall in the session; fraction of trials with a first movement before the post window ends; FF vs number of engaged trials used; all-trial vs first-400 quench. Bottom: Part A, session medians of within-neuron disengaged − engaged differences. Each panel shows a random engaged match, an engaged match at the same trial position, and the early-vs-late engaged placebo.](exploratory-analyses/002_ff_pilot.png){#fig-pilot}
 
-**The paper's post window mostly follows movement.** Median first movement comes 0.14 s (bwm) or 0.12 s (lifespan)
+**The paper's post window mostly follows movement.** Movement itself changes firing rates and spike-count
+variability, so a window that contains movement onset measures movement as well as the response to the stimulus.
+Median first movement comes 0.14 s (bwm) or 0.12 s (lifespan)
 after stimulus onset, and 84% of trials move before the post window ends. On engaged bwm trials, most of the FF drop
 in that window is tied to movement (@fig-move): early movers show it, late movers barely do.
 
@@ -114,20 +137,28 @@ only, without looking at age.
 
 ### Age effects on engaged trials, exploration set
 
-Each neuron's metrics were computed on two trial sets of the same size:
+For Part B, each neuron's metrics were computed on two trial sets of the same size:
 
 - **engaged:** P(engaged) > 0.8;
-- **all:** trials of any state, which is what the paper's analysis sees.
+- **all:** trials of any state, which is what the paper's analysis sees. Trials with P(engaged) between 0.2 and 0.8
+  belong to neither the engaged nor the disengaged set, but they are included here.
 
-The sets have 150 trials (paper windows) or 100 trials (movement-safe window). The age effect, β_age, is the OLS
-slope of the metric on mouse mean age (per 100 days), with ROI fixed effects. FR and FF are on a log scale, as in
-the paper.
+The sets have 150 trials (paper windows) or 100 trials (movement-safe window). Only sessions with at least that many
+engaged trials could be used. This left 44 of the 48 exploration mice (40 for the movement-safe window) and 100 of
+the 110 confirmation mice. Because engagement falls with age, this rule can drop the least engaged mice. In practice
+it removed 8 bwm and 2 lifespan confirmation mice (paper window; 9 and 1 for the movement-safe window).
 
-The mouse is the independent unit: p-values come from permuting age across mice, with each mouse's neurons kept
-together. Zang et al. treated neurons as the unit, which gives much narrower intervals.
+The age effect, β_age, is the OLS slope of the metric on mouse mean age (per 100 days). The regression includes
+ROI fixed effects, so neurons are compared only with other neurons in the same region. FR and FF are on a natural-log
+scale, as in the paper, so β = 0.03 means about 3% higher per 100 days. For quench, a **positive β_age means weaker
+quenching with age**.
+
+The mouse is the independent unit. p-values come from permuting age across mice, with each mouse's neurons kept
+together. z is the observed β divided by the standard deviation of this permutation null. Zang et al. treated
+neurons as the unit, which gives much narrower intervals.
 
 In exploration, β_age on engaged trials was almost the same as on all trials for every metric (@fig-explore). The
-age effects themselves were weak at the mouse level (z ≤ 1.7).
+age effects themselves were weak at the mouse level (|z| ≤ 1.9).
 
 ![Exploration set (44 mice). Top: β_age ± 1.96 permutation SD for each metric, on all trials (grey) and engaged trials (green), for all labs and for the one lab with both cohorts, in paper and movement-safe windows. Bottom: mouse medians vs age.](exploratory-analyses/004_age_effects_exploration.png){#fig-explore}
 
@@ -138,8 +169,10 @@ age effects themselves were weak at the mouse level (z ≤ 1.7).
 
 ## Locked analysis plan
 
-All tests use confirmation mice and engaged trials (P(engaged) > 0.8, equal N per neuron). The statistic is β_age
-with ROI fixed effects, and p-values come from 10,000 permutations of age across mice.
+All tests use confirmation mice and engaged trials (P(engaged) > 0.8, equal N per neuron). These mice were not
+looked at until the plan below was fixed ("unblinding"). The statistic is β_age with ROI fixed effects, and p-values
+come from 10,000 permutations of age across mice. Within each family, the Holm method corrects for multiple tests:
+the smallest p-value is multiplied by the number of tests, the next by one fewer, and so on.
 
 **Primary family Q** (Holm correction across 3 tests; one-sided, less quenching with age):
 
@@ -158,13 +191,16 @@ with ROI fixed effects, and p-values come from 10,000 permutations of age across
 | F3 | post-stimulus FF | one-sided, higher with age |
 | F4 | pre-stimulus FF | two-sided (the paper found no effect) |
 
-**Mediation (descriptive).** Δ = β_all − β_eng is the part of the age slope that disappears when disengaged trials
-are removed. It is estimated with a 95% mouse-bootstrap CI, using the same neurons in both trial sets.
+**Attenuation (descriptive).** Δ = β_all − β_eng is the part of the age slope that disappears when disengaged
+trials are removed. If more disengagement in older mice caused the effect, β_eng would be smaller than β_all and Δ
+would be positive. Δ is estimated with a 95% mouse-bootstrap CI, using the same neurons in both trial sets. This is a
+simple before/after comparison, not a formal mediation analysis.
 
 **Interpretation rules, fixed in advance:**
 
 - "Also when engaged" holds if any Q test is significant.
-- "Not explained by disengagement" holds if, in addition, the upper bound of C2's Δ is below 0.5 × β_all.
+- "Not explained by disengagement" holds if, in addition, the upper bound of C2's Δ is below 0.5 × β_all. In words,
+  removing disengaged trials takes away less than half of the age effect, even at the edge of the CI.
 
 An earlier rule based on the ratio β_eng/β_all was replaced before unblinding. On exploration mice the ratio's CI was
 uninformative (−1.1 to 2.5) because β_all's CI included 0.
@@ -173,14 +209,20 @@ uninformative (−1.1 to 2.5) because β_all's CI included 0.
 
 All three quenching tests were significant: quenching is weaker in older mice on engaged trials.
 
-| test | β_age per 100 d | z | Holm p |
+| test | β_age per 100 d (positive = weaker quenching) | z | Holm p |
 | --- | --- | --- | --- |
 | C1, within-lab (18 mice) | 0.029 | 2.4 | 0.011 |
 | C2, all labs (100 mice) | 0.031 | 3.0 | 0.011 |
 | C3, movement-safe window | 0.021 | 2.4 | 0.011 |
 
+For scale: over the roughly 300-day age span of the bwm confirmation mice (116–429 d), a slope of 0.031 per 100 days adds up to about
++0.09, the size of the typical quench. The median mouse quench on engaged trials was −0.10 in bwm mice and −0.005 in
+lifespan mice.
+
 Removing disengaged trials did not reduce the effect. For C2, Δ = −0.003 (95% CI −0.009 to 0.002) against
-β_all = 0.029, so the pre-set criterion is met.
+β_all = 0.029, so the pre-set criterion is met. This is not because disengaged trials are rare. In confirmation
+lifespan mice a median of only 52% of trials are engaged and 22% disengaged (bwm: 75% and 6%). So the all-trial set
+is quite different from the engaged set in older mice, yet the age slope is the same.
 
 In the secondary family, post-stimulus FF rose with age (F3: z = 2.8, Holm p = 0.020), as Zang et al. report. Pre-
 and post-stimulus firing rate were in the paper's direction but not significant (z ≈ 1.2, Holm p = 0.34).
@@ -188,45 +230,45 @@ Pre-stimulus FF showed no effect (p = 0.42), which is consistent with the paper 
 
 ![Confirmation set (100 mice). Left: the seven locked tests; violins are permutation nulls scaled by their SD, and points are observed z (red = significant after Holm). Middle: β_eng/β_all with 95% mouse-bootstrap CIs for every metric, window and scope (CL = the within-lab subset). Almost every estimate sits at 1; wide intervals occur where β_all is near 0. Right: mouse median quench vs age, all trials (grey) vs engaged trials (green).](confirmatory-analyses/005_confirmatory_tests.png){#fig-confirm}
 
-For every metric, window and scope, Δ was within ±0.005 of zero. Restricting to engaged trials left every age slope
-essentially unchanged.
+For every metric, window and scope, the point estimate of Δ was within ±0.005 of zero; the widest CI (quench,
+within-lab) reached −0.018. Restricting to engaged trials left every age slope essentially unchanged.
 
 ## Post-hoc analyses
 
 These were requested by the user after unblinding and are not part of the locked plan. They have no multiplicity
 correction.
 
-**Within cohort (confirmation mice, engaged trials).** Within bwm alone (89 mice, 116–429 d), quenching weakened
-with age:
+**Within cohort (confirmation mice, engaged trials).** Within bwm alone (116–429 d), quenching weakened with age:
 
-- paper window: β = 0.039 per 100 d, two-sided p = 0.066;
-- movement-safe window: β = 0.057, p = 0.003.
+- paper window (89 mice): β = 0.039 per 100 d, two-sided p = 0.066;
+- movement-safe window (88 mice): β = 0.057, p = 0.003.
 
 Post-stimulus FF rose (β = 0.042, p = 0.033). Within lifespan alone (11–12 mice) the slopes pointed the same way but
 were not significant. So the effect is not only a difference between cohorts; it is graded within the younger
 cohort too.
 
 **Per ROI (all 158 mice, paper windows, engaged trials; ROIs with at least 3 mice per cohort).** β_age for quenching
-was positive in 15 of 16 ROIs, and its CI excluded 0 in LP, LS and SCm. Zang et al. named LP and LS among their
-strongest regions. Post-FF effects were more mixed across regions.
+was positive in 15 of 16 ROIs, and its CI excluded 0 in LP, LS and SCm. LP is among the regions where Zang et al.
+found the clearest quenching reduction. Post-FF effects were more mixed across regions.
 
 ![Post hoc. Left two panels: mouse medians vs age with within-cohort slopes and p-values (confirmation mice). Right two panels: β_age per ROI with 95% mouse-bootstrap CIs; numbers in brackets are bwm/lifespan mice.](confirmatory-analyses/006_posthoc_checks.png){#fig-posthoc}
 
 ## Discussion
 
 **Answer.** Older mice show weaker quenching also when they are engaged. The age effect on quenching is the same on
-engaged trials as on all trials, and on the few sessions where engaged and disengaged trials could be compared
-directly, disengaged trials did not quench less in older mice. More time spent disengaged therefore cannot explain
-the effect. The higher post-stimulus FF also holds on engaged trials. The higher firing rate does not reach
-significance at the mouse level.
+engaged trials as on all trials, even though older mice's all-trial sets contain many disengaged trials. More time
+spent disengaged therefore does not explain the effect. The direct engaged-vs-disengaged comparison (Part A) is
+consistent with this but too weak to add much: it covered few sessions and was confounded by drift over the session.
+The higher post-stimulus FF also holds on engaged trials. The higher firing rate does not reach significance at the
+mouse level.
 
 **Relation to prior work.**
 
 - The quenching and post-FF effects replicate Zang et al. under stricter conditions: mice rather than neurons as the
   unit, engaged trials only, equal trial counts.
-- They survive a window that excludes movement.
-- The FR effect did not: Zang et al. reported it at the neuron level, and with mice as the unit its slope is
-  positive but within the permutation spread.
+- The quenching effect also holds in a window that excludes movement (C3).
+- The firing-rate effect did not replicate, in either window. Zang et al. reported it with neurons as the unit; with
+  mice as the unit its slope is positive but within the permutation spread.
 
 **Caveats.**
 
@@ -236,8 +278,12 @@ significance at the mouse level.
   model-defined state, not an equal level of attention.
 - **Part A is weak.** Only 7 lifespan sessions could be used, and the early-vs-late placebo showed drift as large as
   the state differences.
-- **Movement.** Most of the FF drop in the paper's window is tied to movement. The movement-safe result is smaller
-  (β 0.021 vs 0.031), so part of the paper-window effect may reflect movement timing, which differs with age.
+- **Movement.** Most of the FF drop in the paper's window is tied to movement. Across all labs the movement-safe
+  result is smaller (β 0.021 vs 0.031), so part of the paper-window effect may reflect movement timing, which differs
+  with age. Within bwm mice the movement-safe effect was larger (0.057 vs 0.039, post hoc), so movement does not
+  simply inflate the age effect.
+- **Mouse selection.** Only sessions with at least 150 (or 100) engaged trials were used, which excluded 10 of 110
+  confirmation mice. Because engagement falls with age, the least engaged mice may be under-represented.
 - **Not independent.** Zang et al. analysed these same sessions, so the all-trial age effects are not independent
   evidence. Only the engaged-trial comparison is new.
 - **Region coverage.** Lifespan mice lack several regions, and ROI fixed effects adjust only the level of each
@@ -262,7 +308,7 @@ significance at the mouse level.
 | F3 | @fig-confirm | log post-FF vs age | same, one-sided | 100 / 12,100 | 0.0050 | 0.020 | β = 0.028 (log), z = 2.75 |
 | F4 | @fig-confirm | log pre-FF vs age | same, two-sided | 100 / 12,092 | 0.422 | 0.422 | β = 0.008 (log), z = 0.81 |
 | Δ (C2) | @fig-confirm | β_all − β_eng, quench, paper window | mouse bootstrap (2,000), 95% percentile CI | 100 / 12,040 | n/a | n/a | Δ = −0.003 [−0.009, 0.002] vs β_all = 0.029 |
-| post hoc | @fig-posthoc | quench vs age within bwm, paper / movement-safe window | OLS β, ROI fixed effects; permutation (5,000), two-sided | 89 / ~10,900 | 0.066 / 0.003 | none | β = 0.039 / 0.057 |
+| post hoc | @fig-posthoc | quench vs age within bwm, paper / movement-safe window | OLS β, ROI fixed effects; permutation (5,000), two-sided | 89 / 10,938 and 88 / 10,888 | 0.066 / 0.003 | none | β = 0.039 / 0.057 |
 | post hoc | @fig-posthoc | post-FF vs age within bwm, paper window | same | 89 / 10,996 | 0.033 | none | β = 0.042 (log) |
 
 Permutation tests have no degrees of freedom. Units are listed instead: mice are the units permuted, and neurons

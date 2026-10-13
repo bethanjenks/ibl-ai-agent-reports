@@ -10,3 +10,4 @@
 - 2026-10-13: step 7 run (locked tests on confirmation mice).
 - 2026-10-13: added post hoc step 8b (user request).
 - 2026-10-13: report rendered; instruction-suggestions.md written; TODO step 9 done.
+- 2026-10-13 17:05: added TODO step 10 (report review and revision, user request).
