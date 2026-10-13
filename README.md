@@ -1,6 +1,6 @@
 # ibl-ai-agent-reports
 
-Reports produced with the IBL AI agent. Each report is a single self-contained HTML file in `reports/` (download and open in a browser).
+Reports produced with the IBL AI agent, published at https://bethanjenks.github.io/ibl-ai-agent-reports/. Each report is a single self-contained HTML file in `reports/`.
 
 | Report | File |
 |---|---|
