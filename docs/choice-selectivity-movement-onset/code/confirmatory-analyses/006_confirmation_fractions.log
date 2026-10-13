@@ -1,0 +1,4 @@
+exploratory-analyses/common.py:90: RuntimeWarning: invalid value encountered in divide
+  return (x @ labels.T / n1 - x @ (1 - labels).T / n0) / x.std(-1, keepdims=True)
+368 sessions, 1924 session-regions, 47917 units, 309 s
+exit=0

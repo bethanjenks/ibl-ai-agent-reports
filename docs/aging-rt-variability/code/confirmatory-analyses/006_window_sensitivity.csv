@@ -1,0 +1,17 @@
+set,upper,metric,rho
+exploration,1.0,sd_log_rt,0.35536135926458384
+exploration,1.0,cv,0.19882215655814428
+exploration,2.0,sd_log_rt,0.4456265097849753
+exploration,2.0,cv,0.3475452548298657
+exploration,5.0,sd_log_rt,0.3864086629913811
+exploration,5.0,cv,-0.12798871011851057
+exploration,60.0,sd_log_rt,0.16050153342681753
+exploration,60.0,cv,-0.255163242691738
+confirmation,1.0,sd_log_rt,0.4942291916821109
+confirmation,1.0,cv,0.4024688244388681
+confirmation,2.0,sd_log_rt,0.5208876229457721
+confirmation,2.0,cv,0.4201779937274967
+confirmation,5.0,sd_log_rt,0.24330270616856675
+confirmation,5.0,cv,-0.1988584620628385
+confirmation,60.0,sd_log_rt,0.004490410542635966
+confirmation,60.0,cv,-0.22653580174280058

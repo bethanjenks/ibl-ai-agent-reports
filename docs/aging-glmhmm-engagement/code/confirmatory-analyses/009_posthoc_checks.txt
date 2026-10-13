@@ -1,0 +1,71 @@
+== 1. Age overlap
+subject_id        split   age  n_sessions  soft_occupancy  engaged_stim_weight
+   CSHL046 confirmation 317.5           2            0.64                11.93
+   CSHL062  exploration 331.0           2            0.79                12.37
+   CSHL061 confirmation 350.0           2            0.37                 4.04
+   SWC_029 confirmation 416.5           2            0.68                 4.00
+   CSHL065  exploration 417.0           3            0.68                10.79
+  CSHL_019 confirmation 519.5           2            0.70                 8.04
+  CSHL_018 confirmation 523.0           1            0.71                10.97
+   CSHL029  exploration 524.0           1            0.43                 7.27
+   CSHL070 confirmation 527.0           3            0.75                 4.10
+   CSHL066 confirmation 530.0           3            0.59                 6.96
+   CSHL067  exploration 532.5           2            0.60                 3.89
+   CSHL068 confirmation 539.0           1            0.61                 7.40
+   CSHL069 confirmation 543.5           2            0.52                 3.09
+   CSHL073  exploration 544.5           2            0.61                 5.18
+   CSHL071 confirmation 550.0           3            0.36                 6.09
+   CSHL072 confirmation 557.0           3            0.58                 9.38
+   CSHL075 confirmation 560.5           2            0.66                 8.30
+   CSHL024  exploration 571.0           1            0.58                 7.62
+   CSHL025 confirmation 597.0           1            0.33                 3.46
+BWM age range: 92–454 d
+shared window 318–454 d: 5 lifespan vs 6 BWM mice
+                     lifespan (overlap)  BWM (overlap)
+age                              350.00         376.90
+soft_occupancy                     0.68           0.77
+engaged_stim_weight               10.79          16.00
+subject_id        split                lab    age  soft_occupancy  engaged_stim_weight
+   NR_0024  exploration       steinmetzlab 453.75            0.86                17.32
+   UCLA015  exploration churchlandlab_ucla 380.00            0.51                10.40
+   NR_0017 confirmation       steinmetzlab 429.00            0.66                13.05
+     PL030 confirmation         hausserlab 333.62            0.74                17.72
+     PL031 confirmation         hausserlab 373.80            0.83                16.32
+     PL033 confirmation         hausserlab 339.69            0.79                15.68
+
+== 2. Split balance (lifespan)
+              size    min  median    max
+split                                   
+confirmation    13  318.0   530.0  597.0
+exploration      6  331.0   528.0  571.0
+
+== 3. State comparability (per-mouse refits)
+         engaged_stim_weight                     disengaged_stim_weight                   
+                       count   min    50%    max                  count   min   50%    max
+cohort                                                                                    
+bwm                    139.0  3.89  11.99  26.26                  139.0 -4.41  2.39  10.43
+lifespan                19.0  3.09   7.27  12.37                   19.0  1.56  2.65   6.13
+engaged − disengaged weight, median: {'bwm': 9.89, 'lifespan': 3.66}
+mice with engaged weight < 5 (global threshold): {'bwm': 6, 'lifespan': 6} of {'bwm': 139, 'lifespan': 19}
+
+== 5. Sessions per mouse (all sessions used, not first recording only)
+n_sessions  1   2   3   4   5   6   7   8   9   13
+cohort                                            
+bwm         32  25  29  20  16   4   6   3   3   1
+lifespan     5   9   5   0   0   0   0   0   0   0
+
+== 6. C3 vision check: easy errors in the first 90 trials, by contrast (all 158 mice, mouse-level)
+                   median   mean  size
+contrast cohort                       
+0.25     bwm        0.088  0.102   139
+         lifespan   0.150  0.188    19
+1.00     bwm        0.025  0.040   139
+         lifespan   0.050  0.065    19
+median of per-mouse median reaction time on errors (s):
+                   median  size
+contrast cohort                
+0.25     bwm        0.101   132
+         lifespan   0.033    19
+1.00     bwm        0.076    97
+         lifespan  -0.020    17
+pooled error trials: {(0.25, 'bwm'): 862, (0.25, 'lifespan'): 132, (1.0, 'bwm'): 348, (1.0, 'lifespan'): 48}

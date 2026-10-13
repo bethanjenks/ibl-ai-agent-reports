@@ -1,0 +1,6 @@
+test,description,evaluated,significant,lifespan_median,bwm_median,effect,p,n
+C1a,soft occupancy: lifespan < BWM,True,True,0.6069374966219174,0.8029993907420363,0.13560666137985725,1.069069934933358e-05,13 vs 97
+C2a,soft occupancy falls with age within lifespan,True,False,,,-0.4450549450549451,0.06469353064693531,13
+C1b,engaged stim weight: lifespan < BWM,False,False,6.9566755294799805,11.974572181701658,0.13481363996827914,1.0257367515438574e-05,13 vs 97
+C2b,engaged stim weight falls with age within lifespan,False,False,,,-0.1758241758241758,0.2882711728827117,13
+C3 (add-on),"easy-trial accuracy, first 90 trials: lifespan < BWM",True,True,0.8625,0.9282051282051282,0.2823156225218081,0.005556541950947353,13 vs 97

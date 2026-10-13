@@ -1,0 +1,16 @@
+- 2026-09-07: created question.md and TODO.md (initial drafts, pending user approval).
+- 2026-09-07 (second session): user restricted the question to trials from the initial unbiased block (probabilityLeft == 0.5). question.md: added refinement section, removed block prior from confounds, noted stored event_response_features are unusable and per-choice trial counts are ~30-45. TODO.md: added preflight re-run item; amended unstarted items 000, 003, 004 and the first consult-user item accordingly.
+- 2026-09-07: TODO.md setup items marked complete (environment, datasets, Quarto) with notes on the arm64/x86_64 uv fix.
+- 2026-09-07: TODO.md step 000 marked complete with census numbers and output files.
+- 2026-09-07: user approved the data split and replicate definition proposed in step 000 (question.md unchanged; 'proposal, needs approval' now approved).
+- 2026-09-07: TODO.md step 001 marked complete; noted the binning bug found and fixed via the raster sanity plot.
+- 2026-09-07: TODO.md step 002 marked complete; question.md gained a 'Candidate metrics' section (delta_raw, delta_bl, delta_base).
+- 2026-09-07: TODO.md step 003 marked complete; question.md gained 'Provisional parameter choices after step 003'.
+- 2026-09-07: user chose a wide window; question.md provisional choices updated to W=[-0.2,0.2] with an omnibus sub-bin statistic; TODO.md gained step 003b.
+- 2026-09-07: TODO.md step 004 marked complete with stratified-permutation and half-split results.
+- 2026-09-07: TODO.md step 005 marked complete with region-test comparison, calibration and power results.
+- 2026-09-07: question.md gained 'Proposed locked confirmatory plan (pending user approval)'; 005 script seed changed from Python hash(eid) (process-randomised) to the UUID integer for reproducibility.
+- 2026-09-07: plan locked (user approval); BH-per-test line added. `session_region_fractions` and `region_tests` moved from 005 into common.py (005 now imports them; its outputs unchanged). TODO consult item checked.
+- 2026-09-07: TODO.md steps 006 and 007 marked complete with confirmatory results.
+- 2026-09-07: TODO.md steps 008 and 009 (post-hoc) marked complete.
+- 2026-09-07: TODO.md report item marked complete. 001/002 scripts edited to drop mouse identifiers from figure titles and rerun.

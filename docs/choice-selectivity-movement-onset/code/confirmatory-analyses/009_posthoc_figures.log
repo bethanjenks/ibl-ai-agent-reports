@@ -1,0 +1,5 @@
+136 regions. Overall session-region means: locked 0.173, pre 0.090, post 0.173, cgs 0.115, sgc 0.071
+pre > post in 13 regions; top 10 by pre-movement fraction: ['SNr', 'CEA', 'NPC', 'GRN', 'PRNr', 'TRN', 'MRN', 'RN', 'ZI', 'ACAd']
+largest post - pre: {'SSp-ll': 0.258, 'GPe': 0.23, 'PGRN': 0.225, 'RN': 0.222, 'PAR': 0.222, 'NTS': 0.219, 'RT': 0.217, 'RR': 0.21}
+choice|stim > stim|choice in 107 regions; regions where stim|choice >= 0.10: {'SNr': 0.175, 'RN': 0.116, 'GPe': 0.172, 'MRN': 0.115, 'GRN': 0.133, 'PRNr': 0.124, 'OP': 0.2, 'DN': 0.142, 'IRN': 0.121, 'PGRN': 0.149, 'RR': 0.124, 'VII': 0.104, 'PYR': 0.133, 'PPN': 0.103, 'CP': 0.101, 'MD': 0.126, 'VISam': 0.131, 'AIp': 0.104, 'LSc': 0.104, 'LH': 0.164, 'PCG': 0.117, 'AUDp': 0.1}
+per-lab mean fraction (labs anonymised): {'lab 1': 0.113, 'lab 2': 0.121, 'lab 3': 0.123, 'lab 4': 0.159, 'lab 5': 0.172, 'lab 6': 0.175, 'lab 7': 0.178, 'lab 8': 0.179, 'lab 9': 0.181, 'lab 10': 0.183, 'lab 11': 0.196, 'lab 12': 0.218}

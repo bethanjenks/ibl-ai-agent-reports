@@ -1,0 +1,30 @@
+metric,subset,n,spearman_age
+soft_occupancy,all,110,-0.16571688786713873
+soft_occupancy,bwm only,97,0.07877727893230842
+soft_occupancy,lifespan only,13,-0.4450549450549451
+soft_occupancy,churchlandlab lifespan − bwm median,20,-0.22668729561459078
+engaged_stim_weight,all,110,-0.2441773443666304
+engaged_stim_weight,bwm only,97,-0.02140879894863502
+engaged_stim_weight,lifespan only,13,-0.1758241758241758
+engaged_stim_weight,churchlandlab lifespan − bwm median,20,-5.740849733352661
+lapse_proxy,all,110,0.3402485513452803
+lapse_proxy,bwm only,97,0.24072485103660882
+lapse_proxy,lifespan only,13,0.6593406593406593
+lapse_proxy,churchlandlab lifespan − bwm median,20,0.0238716625698836
+acc_easy_early,all,110,-0.20259773568086187
+acc_easy_early,bwm only,97,-0.0856610102130202
+acc_easy_early,lifespan only,13,-0.2087912087912088
+acc_easy_early,churchlandlab lifespan − bwm median,20,-0.05020833333333319
+disengaged_bout,all,110,-0.03601812405128994
+disengaged_bout,bwm only,97,-0.24547295643023875
+disengaged_bout,lifespan only,13,0.20329670329670327
+disengaged_bout,churchlandlab lifespan − bwm median,20,27.85714285714285
+switches_per_100,all,110,0.13023092262508285
+switches_per_100,bwm only,97,0.20025380245074578
+switches_per_100,lifespan only,13,0.03846153846153846
+switches_per_100,churchlandlab lifespan − bwm median,20,0.4398096256649653
+H3 OLS: lapse_proxy ~ age,beta_age (z),110,0.4216024640436334
+H3 OLS: lapse_proxy ~ age + soft_occupancy,beta_age (z),110,0.32142451598383043
+H3 OLS: lapse_proxy ~ age + engaged_stim_weight,beta_age (z),110,0.2903006393826542
+H3 OLS: lapse_proxy ~ age + soft_occupancy + engaged_stim_weight,beta_age (z),110,0.26566238659178903
+soft occupancy before reward 100,lifespan − bwm median,110,-0.19747398473383326
