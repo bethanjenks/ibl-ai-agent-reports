@@ -1,5 +1,7 @@
 # Analysis code: Older mice spend less time engaged in the IBL decision task
 
+> **This analysis builds on the [RT-variability report](https://bethanjenks.github.io/ibl-ai-agent-reports/aging-rt-variability/).** It reuses that report's mouse split and RT metrics, so those scripts must be run first. See [Dependency on the RT-variability report](#dependency-on-the-rt-variability-report).
+
 Scripts that produced the report in the folder above. `artifacts/split.csv` is the locked mouse-level exploration/confirmation split, shared with the RT-variability report.
 
 ## Setup

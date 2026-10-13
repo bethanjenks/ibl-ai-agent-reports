@@ -1,5 +1,7 @@
 # Analysis code: Weaker variability quenching in older mice is not explained by disengagement
 
+> **This analysis builds on the [GLM-HMM engagement report](https://bethanjenks.github.io/ibl-ai-agent-reports/aging-glmhmm-engagement/).** It uses that report's per-trial engagement labels and its mouse split, so the GLM-HMM scripts (and, before them, the RT-variability scripts) must be run first. See [Dependency on the GLM-HMM report](#dependency-on-the-glm-hmm-report).
+
 Scripts that produced the report in the folder above. Shared loading and metric code is in `exploratory-analyses/quench_common.py`. `artifacts/split.csv` is the locked mouse-level exploration/confirmation split, the same one used by the two other ageing reports.
 
 ## Setup
